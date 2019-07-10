@@ -1,0 +1,8 @@
+working wallet address
+	\s\s(1|3|bc1)(\w{26,35}[^O|0|])\s
+
+BTC [1-6 words] [wallet address] - case sensitive
+	\bBTC\W+(?:\w+\W+){1,6}?(1|3|bc1)(\w{26,35})\b
+
+BTC [1-10 words] [wallet address] - fiXeD CaSE
+	\b[B|b][T|t][C|c]\W+(?:\w+\W+){1,10}?(1|3|bc1)(\w{26,35})\b
